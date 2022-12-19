@@ -3,13 +3,15 @@
 class main{
     public $img;
     public $nome;
-    public $prezzo;
     public $category;
+    public $prezzo;
+    
 
-    public function __construct($img,$nome,$prezzo,$category){
+    public function __construct($img,$nome,$category,$prezzo){
         $this->img=$img;
         $this->nome=$nome;
-        $this->prezzo=$prezzo;
         $this->category=$category;
+        $this->prezzo=$prezzo;
+       
     }
 }
